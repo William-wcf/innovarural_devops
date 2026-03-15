@@ -63,7 +63,7 @@ La arquitectura se basa en un clúster Kubernetes donde el tráfico de usuario e
 ---
 
 ## 👤 Autor
-
+JAVIER IVAN SANJUANELO ROBLES
 **William Chavez Fajardo**  
 Estudiante de Posgrado  
 Proyecto académico – DevOps y Despliegue Continuo

@@ -1,0 +1,10 @@
+{
+  "name": "mi-api-innovarural",
+  "version": "1.0.0",
+  "description": "Servicio web mínimo para práctica DevOps",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

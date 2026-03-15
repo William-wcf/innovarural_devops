@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mi-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mi-api
+  template:
+    metadata:
+      labels:
+        app: mi-api
+    spec:
+      containers:
+      - name: mi-api
+        image: mi-api:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
